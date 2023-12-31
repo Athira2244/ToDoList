@@ -1,10 +1,16 @@
-@media (width < 768px) {
+@media (width < 568px) {
   #main {
     width: 95% !important;
   }
 }
-@media (width < 992px) {
+@media (width > 768px) {
   #main {
-    width: 60% !important;
+    width: 95% !important;
   }
 }
+@media (width > 992px) {
+  #main {
+    width: 40% !important;
+  }
+}
+
